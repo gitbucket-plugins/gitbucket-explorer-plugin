@@ -1,0 +1,73 @@
+  /* simulate AdminLTE */
+.submenu-files:hover,
+.submenu-files:active,
+li.active .submenu-files {
+  color: #fff;
+  border-left-color: #3c8dbc;
+  text-decoration: none;
+}
+.submenu-files {
+  color: #b8c7cc;
+  background: #1e282c;
+  border-left: 3px solid transparent;
+  width: auto;
+  padding: 12px 5px 12px 15px;
+  display: block;
+}
+.file-tree {
+  overflow: auto;
+  width: 100%;
+  max-height: calc(100vh - 94px);
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-left: 3px solid #1e282c;
+  border-right: 2px solid #1e282c;
+}
+li.active .file-tree {
+  border-left: 3px solid #3c8dbc;
+}
+.file-tree ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 2em;
+}
+.file-tree ul li.folder-node {
+  margin-left: -1em;
+}
+.tree-node i.octicon-file,
+.tree-node i.octicon-file-directory {
+  margin-right: 0.2em;
+}
+.folder-expander octicon {
+  font-size: 0.8em;
+}
+.root-expander {
+  position: absolute;
+  padding: 2px 2px 0 5px;
+  right: 5px;
+  top: 10px;
+  box-shadow: none;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.root-expander > .octicon {
+  font-size: 18px;
+  font-weight: 700;
+}
+.file-tree button {
+  border: none;
+  padding-left: 0;
+  background: inherit;
+  color: inherit;
+}
+.file-tree button,
+.file-node > a {
+  color: #337ab7 !important;;
+}
+.file-tree button:hover,
+.file-node > a:hover {
+  opacity: 0.6;
+}

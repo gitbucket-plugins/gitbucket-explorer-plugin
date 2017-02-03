@@ -1,0 +1,35 @@
+{
+  "name": "gitbucket-explorer-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t babelify ./scripts/index.js -o ./src/main/resources/explorer/assets/bundle.js | sbt package",
+    "watch": "watchify -t babelify ./scripts/index.js -o ./src/main/resources/explorer/assets/bundle.js",
+    "release": "set NODE_ENV=production && browserify ./scripts/index.js -t babelify -t envify | uglifyjs -c warnings=false > ./src/main/resources/explorer/assets/bundle.js | sbt clean package"
+  },
+  "author": "tomoki1207",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "envify": "^4.0.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "uglify-js": "^2.7.5",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-localstorage": "^0.3.0",
+    "react-mixin": "^3.0.5",
+    "superagent": "^3.4.1"
+  }
+}

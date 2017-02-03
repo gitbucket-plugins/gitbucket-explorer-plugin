@@ -3,8 +3,6 @@ gitbucket-groupsmenu-plugin
 
 The plugin provides a file tree of repository [GitBucket](https://github.com/gitbucket/gitbucket).
 
-![screenshot](./screenshot.png)
-
 Version
 ---
 
