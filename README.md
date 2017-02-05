@@ -1,7 +1,9 @@
-gitbucket-groupsmenu-plugin
+gitbucket-explorer-plugin
 ===
 
-The plugin provides a file tree of repository [GitBucket](https://github.com/gitbucket/gitbucket).
+The plugin provides a file tree of repository for [GitBucket](https://github.com/gitbucket/gitbucket).
+
+![screenshot](screenshot.png)
 
 Version
 ---
