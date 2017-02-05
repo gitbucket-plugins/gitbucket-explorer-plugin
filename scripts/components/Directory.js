@@ -27,6 +27,10 @@ export default class Directory extends React.Component {
     };
   }
 
+  getLocalStorageKey() {
+    return this.props.url;
+  }
+
   toggleFolder(path) {
     if (this.state.expanded) {
       this.setState({

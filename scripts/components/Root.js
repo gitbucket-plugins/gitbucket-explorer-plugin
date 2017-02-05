@@ -13,6 +13,10 @@ export default class Root extends Directory {
     });
   }
 
+  getLocalStorageKey() {
+    return this.state.rootPath;
+  }
+
   render() {
     const arrow = this.state.expanded ? 'octicon octicon-chevron-down' : 'octicon octicon-chevron-right';
     return (

@@ -13,7 +13,7 @@ export default class FileNodes extends React.Component {
   render() {
     const nodes = this.props.data.map(node => (
       node.isDirectory ?
-        <Directory localStorageKey={node.url} key={node.url} name={node.name} url={node.url.replace('/tree/', '/explore/')} />
+        <Directory key={node.url} name={node.name} url={node.url.replace('/tree/', '/explore/')} />
         : <File key={node.url} name={node.name} url={node.url} />
     ));
     return (
