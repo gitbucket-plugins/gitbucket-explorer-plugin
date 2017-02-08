@@ -23,7 +23,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override def javaScripts(registry: PluginRegistry, context: ServletContext, settings: SystemSettings): Seq[(String, String)] = {
     val path = settings.baseUrl.getOrElse(context.getContextPath)
     Seq(
-      ".*/(?!dashboard).+/.+" -> s"""
+      ".*/(?!(dashboard|admin)).+/.+" -> s"""
        |</script>
        |<script>
        |  var link = document.createElement('link');
