@@ -10,7 +10,7 @@ Version
 
 Plugin version|GitBucket version
 :---|:---
-1.0.0|4.9+
+1.0.x|4.9+
 
 Download
 ---
@@ -21,3 +21,14 @@ Installation
 ---
 
 Download a jar file and put into `GITBUCKET_HOME/plugins` and then restart GitBucket.
+
+Release
+---
+
+### 1.0.1 - 8 Jan 2017
+
+- Display tree of selected branch
+
+### 1.0.0 - 6 Jan 2017
+
+- first release
