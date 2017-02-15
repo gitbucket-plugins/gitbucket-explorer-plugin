@@ -25,6 +25,10 @@ Download a jar file and put into `GITBUCKET_HOME/plugins` and then restart GitBu
 Release
 ---
 
+### 1.0.2 - 15 Feb 2017
+
+- Fixed some bugs
+
 ### 1.0.1 - 8 Jan 2017
 
 - Display tree of selected branch
