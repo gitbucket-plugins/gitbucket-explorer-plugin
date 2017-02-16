@@ -25,6 +25,10 @@ Download a jar file and put into `GITBUCKET_HOME/plugins` and then restart GitBu
 Release
 ---
 
+### 1.0.2 - 16 Feb 2017
+
+- (bugfix) No redirect to css on deny anonymous access
+
 ### 1.0.2 - 15 Feb 2017
 
 - Fixed some bugs
