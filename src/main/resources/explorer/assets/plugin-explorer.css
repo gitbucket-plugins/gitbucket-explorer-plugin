@@ -43,8 +43,9 @@ li.active .file-tree {
 }
 .root-expander {
   position: absolute;
-  padding: 2px 2px 0 5px;
-  right: 5px;
+  padding: 2px 1px 0px 5px;
+  width: 21px;
+  right: 15px;
   top: 10px;
   box-shadow: none;
   line-height: 1.5;
@@ -52,10 +53,16 @@ li.active .file-tree {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   border-radius: 3px;
+  outline: none !important;
 }
-.root-expander > .octicon {
-  font-size: 18px;
-  font-weight: 700;
+.root-expander > .octicon-chevron-right {
+  width: 12px;
+}
+.root-expander > .octicon-chevron-down {
+  width: 14px;
+}
+.root-expander:hover > .octicon {
+  color: rgb(60, 141, 188);
 }
 .file-tree button {
   border: none;

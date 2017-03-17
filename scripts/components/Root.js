@@ -34,7 +34,7 @@ export default class Root extends Directory {
     const arrow = this.state.expanded ? 'octicon octicon-chevron-down' : 'octicon octicon-chevron-right';
     return (
       <div className="tree-node">
-        <button className="root-expander" onClick={() => this.toggleFolder(`${this.state.rootPath}/explore/${this.state.branch}`)} >
+        <button className="root-expander btn btn-default" onClick={() => this.toggleFolder(`${this.state.rootPath}/explore/${this.state.branch}`)} >
           <i className={arrow} />
         </button>
         <a href={this.state.rootPath} className="submenu-files" >
