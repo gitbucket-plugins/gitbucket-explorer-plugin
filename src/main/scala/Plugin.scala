@@ -13,7 +13,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginName: String = "Project explorer Plugin"
   override val description: String = "Explore Files from the file tree in the repository"
   override val versions: List[Version] = List(new Version("1.0.0"), new Version("1.0.1"), new Version("1.0.2"), new Version("1.0.3"),
-                                              new Version("2.0.0"))
+                                              new Version("2.0.0"), new Version("3.0.0"))
 
   override val controllers = Seq(
     "/*" -> new ExplorerController()

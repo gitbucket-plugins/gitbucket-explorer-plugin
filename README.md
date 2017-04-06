@@ -10,7 +10,8 @@ Version
 
 Plugin version|GitBucket version
 :---|:---
-2.x| 4.10+
+3.x|4.11+
+2.0.0| 4.10+
 1.0.x|4.9.x
 
 Download
@@ -25,6 +26,10 @@ Download a jar file and put into `GITBUCKET_HOME/plugins` and then restart GitBu
 
 Release
 ---
+
+### 3.0.0 - 7 Apr 2017
+
+- Bump to GitBucket 4.11
 
 ### 2.0.0 - 28 Feb 2017
 

@@ -5,7 +5,7 @@ import gitbucket.core.controller.ControllerBase
 import gitbucket.core.service.{AccountService, RepositoryService}
 import gitbucket.core.util.{JGitUtil, ReferrerAuthenticator}
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.ControlUtil._
+import gitbucket.core.util.SyntaxSugars._
 import gitbucket.core.util.Directory._
 import org.eclipse.jgit.api.Git
 import gitbucket.core.view.helpers
