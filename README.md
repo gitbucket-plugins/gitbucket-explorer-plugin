@@ -1,7 +1,7 @@
 gitbucket-explorer-plugin
 ===
 
-The plugin provides a file tree of repository for [GitBucket](https://github.com/gitbucket/gitbucket).
+The plugin provides an explorer like file tree of GIT repositories for [GitBucket](https://github.com/gitbucket/gitbucket).
 
 ![screenshot](screenshot.png)
 
@@ -10,22 +10,27 @@ Version
 
 Plugin version|GitBucket version
 :---|:---
-3.x|4.11+
+3.1.x|4.12+
+3.0.x|4.11+
 2.0.0| 4.10+
 1.0.x|4.9.x
 
 Download
 ---
 
-You can download a jar file from the [Release](https://github.com/tomoki1207/gitbucket-explorer-plugin/releases).
+You can download a JAR file from the [Release](https://github.com/tomoki1207/gitbucket-explorer-plugin/releases) page.
 
 Installation
 ---
 
-Download a jar file and put into `GITBUCKET_HOME/plugins` and then restart GitBucket.
+Copy the downloaded plug-in JAR file to your `GITBUCKET_HOME/plugins` directory, and then restart the GitBucket instance.
 
 Release
 ---
+
+### 3.1.0 - xxx May 2017
+
+- Bump to GitBucket 4.12.1
 
 ### 3.0.0 - 7 Apr 2017
 
