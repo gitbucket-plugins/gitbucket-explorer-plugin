@@ -2,6 +2,8 @@ bundle.js
 node_modules/
 *.class
 *.log
+.vscode
+package-lock.json
 
 # sbt specific
 dist/*
