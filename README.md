@@ -1,7 +1,7 @@
 gitbucket-explorer-plugin
 ===
 
-The plugin provides an explorer like file tree of GIT repositories for [GitBucket](https://github.com/gitbucket/gitbucket).
+This plugin provides an explorer like file tree for GIT repositories with [GitBucket](https://github.com/gitbucket/gitbucket).
 
 ![screenshot](screenshot.png)
 
@@ -25,7 +25,15 @@ Installation
 
 Copy the downloaded plug-in JAR file to your `GITBUCKET_HOME/plugins` directory, and then restart the GitBucket instance.
 
-Release
+Building
+---
+Pre-requisites are Node, NPM, SBT, and Java 8.
+ - Run `npm install` to install all node dependencies.
+ - Run `npm run-script release` to create a **complete** release (this will call SBT too).
+  
+See `package.json` for more details.
+ 
+Releases
 ---
 
 ### 4.0.0 - 5 Sept 2017
@@ -58,4 +66,4 @@ Release
 Credits
 ---
 
-This plug-in was developed by [@tomoki1207](https://github.com/tomoki1207) 
+This plug-in was developed by [@tomoki1207](https://github.com/tomoki1207). 
