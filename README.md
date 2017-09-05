@@ -18,7 +18,7 @@ Plugin version|GitBucket version
 Download
 ---
 
-You can download the JAR file from the [Release](https://github.com/tomoki1207/gitbucket-explorer-plugin/releases) page.
+You can download the JAR file from the [Release](https://github.com/gitbucket-plugins/gitbucket-explorer-plugin/releases) page.
 
 Installation
 ---
@@ -28,7 +28,7 @@ Copy the downloaded plug-in JAR file to your `GITBUCKET_HOME/plugins` directory,
 Release
 ---
 
-### 4.0.0 - 7 Sept 2017
+### 4.0.0 - 5 Sept 2017
 - Bump to GitBucket 4.16
 
 ### 3.0.0 - 7 Apr 2017
@@ -54,3 +54,8 @@ Release
 ### 1.0.0 - 6 Feb 2017
 
 - first release
+
+Credits
+---
+
+This plug-in was developed by [@tomoki1207](https://github.com/tomoki1207) 
