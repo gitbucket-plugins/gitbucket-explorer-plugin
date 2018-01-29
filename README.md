@@ -1,4 +1,4 @@
-gitbucket-explorer-plugin [![Gitter](https://img.shields.io/gitter/room/gitbucket/gitbucket.js.svg?style=flat-square)](https://gitter.im/gitbucket/gitbucket) [![Travis](https://img.shields.io/travis/gitbucket/gitbucket-explorer-plugin.svg?style=flat-square)](https://travis-ci.org/gitbucket/gitbucket-explorer-plugin)
+gitbucket-explorer-plugin [![Gitter](https://img.shields.io/gitter/room/gitbucket/gitbucket.js.svg?style=flat-square)](https://gitter.im/gitbucket/gitbucket) [![Travis](https://img.shields.io/travis/gitbucket-plugins/gitbucket-explorer-plugin.svg?style=flat-square)](https://travis-ci.org/gitbucket-plugins/gitbucket-explorer-plugin)
 ===
 
 This plugin provides an explorer like file tree for GIT repositories with [GitBucket](https://github.com/gitbucket/gitbucket).
@@ -10,7 +10,7 @@ Version
 
 Plugin version|GitBucket version
 :---|:---
-5.0|4.21.x+  |  
+5.0|4.21+  
 4.0|4.16+
 3.x|4.11+
 2.0.0| 4.10+
