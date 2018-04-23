@@ -10,7 +10,8 @@ Version
 
 Plugin version|GitBucket version
 :---|:---
-5.0|4.21+  
+6.0|4.23+
+5.0|4.21+
 4.0|4.16+
 3.x|4.11+
 2.0.0| 4.10+
@@ -36,6 +37,8 @@ See `package.json` for more details.
 
 Releases
 ---
+### 6.0.0 - 23 Apr 2018
+- Bump to GitBucket 4.23.1
 
 ### 5.0.0 - 29 Jan 2018
 - Bump to GitBucket 4.21.2

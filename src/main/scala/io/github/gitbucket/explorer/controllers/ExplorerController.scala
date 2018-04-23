@@ -19,6 +19,11 @@ class ExplorerController extends ExplorerControllerBase
 trait ExplorerControllerBase extends ControllerBase {
   self: RepositoryService with AccountService with ReferrerAuthenticator =>
 
+  get("/:owner/:repository/explore")(referrersOnly { repository =>
+    contentType = "application/json"
+    JsonFormat(explore(repository, "", "."))
+  })
+
   get("/:owner/:repository/explore/*")(referrersOnly { repository =>
     val (id, path) = repository.splitPath(multiParams("splat").head)
 
