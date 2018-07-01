@@ -9,18 +9,19 @@ Version
 ---
 
 Plugin version|GitBucket version
-:---|:---
-6.0|4.23+
-5.0|4.21+
-4.0|4.16+
-3.x|4.11+
-2.0.0| 4.10+
-1.0.x|4.9.x
+:-------------|:----------------
+6.1.x         |4.26+
+6.0.x         |4.23+
+5.0.x         |4.21+
+4.0.x         |4.16+
+3.0.x         |4.11+
+2.0.0         |4.10+
+1.0.x         |4.9.x
 
 Download
 ---
 
-You can download the JAR file from the [Release](https://github.com/gitbucket-plugins/gitbucket-explorer-plugin/releases) page.
+You can download the JAR file from the [Release](https://github.com/gitbucket-plugins/gitbucket-explorer-plugin/releases).
 
 Installation
 ---
@@ -30,13 +31,16 @@ Copy the downloaded plug-in JAR file to your `GITBUCKET_HOME/plugins` directory,
 Building
 ---
 Pre-requisites are Node, NPM, SBT, and Java 8.
- - Run `npm install` to install all node dependencies.
- - Run `npm run-script release` to create a **complete** release (this will call SBT too).
+- Run `npm install` to install all node dependencies.
+- Run `npm run-script release` to create a **complete** release (this will call SBT too).
 
 See `package.json` for more details.
 
 Releases
 ---
+### 6.1.0 - 1 Jul 2018
+- Bump sbt-gitbucket-plugin to 1.3.0 to be hosted by the [plugin registry](https://plugins.gitbucket-community.org/)
+
 ### 6.0.0 - 23 Apr 2018
 - Bump to GitBucket 4.23.1
 
