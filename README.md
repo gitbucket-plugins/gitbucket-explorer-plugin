@@ -21,7 +21,7 @@ Plugin version|GitBucket version
 Download
 ---
 
-You can download the JAR file from the [Release](https://github.com/gitbucket-plugins/gitbucket-explorer-plugin/releases).
+You can download the JAR file from the [plugin registry](https://plugins.gitbucket-community.org/releases/gitbucket-explorer-plugin).
 
 Installation
 ---
