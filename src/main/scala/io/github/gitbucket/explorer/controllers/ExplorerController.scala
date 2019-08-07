@@ -9,6 +9,7 @@ import gitbucket.core.util.SyntaxSugars._
 import gitbucket.core.util.Directory._
 import org.eclipse.jgit.api.Git
 import gitbucket.core.view.helpers
+import scala.util.Using
 
 /**
   * Created by t_maruyama on 2017/01/31.
@@ -32,7 +33,7 @@ trait ExplorerControllerBase extends ControllerBase {
   })
 
   private def explore(repository: RepositoryService.RepositoryInfo, rev: String, path: String): Option[List[FileNode]] = {
-    using(Git.open(getRepositoryDir(repository.owner, repository.name))){ git =>
+    Using.resource(Git.open(getRepositoryDir(repository.owner, repository.name))){ git =>
       if(!JGitUtil.isEmpty(git)) {
         JGitUtil.getDefaultBranch(git, repository, rev).map {
           case (objectId, revision) => defining(JGitUtil.getRevCommitFromId(git, objectId)) { _ =>
