@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify -t babelify ./scripts/index.js -o ./src/main/resources/explorer/assets/bundle.js && sbt assembly",
     "watch": "watchify -t babelify ./scripts/index.js -o ./src/main/resources/explorer/assets/bundle.js",
-    "release": "set NODE_ENV=production && browserify ./scripts/index.js -t babelify -t envify | uglifyjs -c warnings=false > ./src/main/resources/explorer/assets/bundle.js && sbt clean assembly"
+    "release": "set NODE_ENV=production && browserify ./scripts/index.js -t babelify -t envify | uglifyjs > ./src/main/resources/explorer/assets/bundle.js && sbt clean assembly"
   },
   "author": "tomoki1207",
   "license": "MIT",
