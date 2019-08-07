@@ -10,6 +10,7 @@ Version
 
 Plugin version|GitBucket version
 :-------------|:----------------
+7.0.x         |4.32+
 6.1.x         |4.26+
 6.0.x         |4.23+
 5.0.x         |4.21+
@@ -21,7 +22,7 @@ Plugin version|GitBucket version
 Download
 ---
 
-You can download the JAR file from the [plugin registry](https://plugins.gitbucket-community.org/releases/gitbucket-explorer-plugin).
+You can download the JAR file from the [Release](https://github.com/tomoki1207/gitbucket-explorer-plugin/releases) page.
 
 Installation
 ---
@@ -38,6 +39,9 @@ See `package.json` for more details.
 
 Releases
 ---
+### 7.0.0 - 7 Aug 2019
+- Bump to GitBucket 4.32.0 and Scala 2.13.0
+
 ### 6.1.0 - 1 Jul 2018
 - Bump sbt-gitbucket-plugin to 1.3.0 to be hosted by the [plugin registry](https://plugins.gitbucket-community.org/)
 
