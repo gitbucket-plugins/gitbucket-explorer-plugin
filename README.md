@@ -10,6 +10,7 @@ Version
 
 Plugin version|GitBucket version
 :-------------|:----------------
+8.0.x         |4.34+
 7.0.x         |4.32+
 6.1.x         |4.26+
 6.0.x         |4.23+
@@ -39,6 +40,9 @@ See `package.json` for more details.
 
 Releases
 ---
+### 8.0.0 - 8 Aug 2020
+- Bump to GitBucket 4.34.0
+
 ### 7.0.0 - 7 Aug 2019
 - Bump to GitBucket 4.32.0 and Scala 2.13.0
 
