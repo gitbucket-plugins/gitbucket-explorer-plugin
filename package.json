@@ -23,7 +23,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "uglify-js": "^3.0.28",
-    "watchify": "^3.9.0"
+    "watchify": "^3.11.1"
   },
   "dependencies": {
     "react": "^15.4.2",
