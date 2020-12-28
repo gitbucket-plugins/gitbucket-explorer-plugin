@@ -63,27 +63,21 @@ Releases
 - Bump to GitBucket 4.16
 
 ### 3.0.0 - 7 Apr 2017
-
 - Bump to GitBucket 4.11
 
 ### 2.0.0 - 28 Feb 2017
-
 - Bump to GitBucket 4.10
 
 ### 1.0.2 - 16 Feb 2017
-
 - (bugfix) No redirect to css on deny anonymous access
 
 ### 1.0.2 - 15 Feb 2017
-
 - Fixed some bugs
 
 ### 1.0.1 - 8 Feb 2017
-
 - Display tree of selected branch
 
 ### 1.0.0 - 6 Feb 2017
-
 - first release
 
 Credits
