@@ -25,7 +25,9 @@ jobs:
     - name: Run tests
       run: sbt test
     - name: Assembly
-      run: sbt assembly
+      run: |
+        npm install
+        npm run-script release
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
