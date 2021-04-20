@@ -23,7 +23,12 @@ jobs:
         java-version: '8'
         distribution: 'adopt'
     - name: Run tests
-      run: sbt test
+      run: |
+        git clone https://github.com/gitbucket/gitbucket.git
+        cd gitbucket
+        sbt publishLocal
+        cd ../
+        sbt test
     - name: Assembly
       run: |
         npm install
